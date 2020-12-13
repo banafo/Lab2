@@ -36,7 +36,7 @@ void *multiplicaMatrizMatriz(void *tid)
 }
 
 
-//funcao principal
+//main
 int main(int argc, char *argv[]) {
    
    int numCPU = sysconf(_SC_NPROCESSORS_ONLN); 
