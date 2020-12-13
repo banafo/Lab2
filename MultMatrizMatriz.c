@@ -21,7 +21,7 @@ void *multiplicaMatrizMatriz(void *tid)
 
    for(i = td; i < dim; i+=threads)
    {
-   		//vetB[i]  = 0;
+   	
 		for(k = 0; k < dim; k++)
 		{
 			for(j = 0; j < dim; j++)
